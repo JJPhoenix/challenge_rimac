@@ -125,7 +125,7 @@ function DocumentInput() {
             <div className="inline-flex items-center mt-4">
                 <a href="!#" className="cursor-pointer underline font-BR-sonoma-semi-bold">Aplican Términos y Condiciones</a>
             </div>
-            <div className="inline-flex items-center mt-4 justify-center">
+            <div className="inline-flex items-center mt-4 justify-center md:justify-normal">
                 <Link to={validar ? "/products" : "/"}>
                     <button className="rounded-full bg-black text-white px-4 py-2 focus:outline-none hover:bg-gray-900 transition-colors duration-300 pt-5 pb-5 pl-5 pr-5 w-[400px] md:w-36" id='btn_cotizar'
                             onClick={cotizar}>
