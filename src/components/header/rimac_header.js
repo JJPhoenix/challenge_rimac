@@ -18,7 +18,7 @@ function Header() {
             </div>
             <ul className="flex space-x-4">
                 <li className="hidden sm:block">
-                    <a>¡Compra por este medio!</a>
+                    <a href="!#">¡Compra por este medio!</a>
                 </li>
                 <li>
                     <svg width="139" height="20" viewBox="0 0 139 20" fill="none" xmlns="http://www.w3.org/2000/svg">
