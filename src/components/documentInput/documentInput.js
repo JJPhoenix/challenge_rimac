@@ -23,10 +23,14 @@ function DocumentInput() {
                 setTipoDoc(value);
                 break;
             case 'doc':
-                setDoc(value);
+                if (/^[0-9]*$/.test(e.target.value)) {
+                    setDoc(value);
+                }
                 break;
             case 'cellphone':
-                setCellphone(value);
+                if (/^[0-9]*$/.test(e.target.value)) {
+                    setCellphone(value);
+                }
                 break;
             case 'term1':
                 setTerm1(value);
@@ -80,6 +84,7 @@ function DocumentInput() {
                         <input type="text"
                                name="doc"
                                value={doc}
+                               maxLength={11}
                                onChange={handleInputChange}
                                className="block py-2.5 px-0 text-sm text-gray-900  appearance-none focus:outline-none focus:ring-0 peer pl-4 w-[200px] md:w-[400px] bg-transparent " placeholder=" "/>
                         <label htmlFor="celular" className="absolute pl-4 text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Nro. de documento</label>
