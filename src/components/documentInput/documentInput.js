@@ -81,7 +81,7 @@ function DocumentInput() {
                                name="doc"
                                value={doc}
                                onChange={handleInputChange}
-                               className="block py-2.5 px-0 text-sm text-gray-900  appearance-none focus:outline-none focus:ring-0 peer pl-4 w-40 md:w-96 bg-transparent" placeholder=" "/>
+                               className="block py-2.5 px-0 text-sm text-gray-900  appearance-none focus:outline-none focus:ring-0 peer pl-4 w-[200px] md:w-[400px] bg-transparent " placeholder=" "/>
                         <label htmlFor="celular" className="absolute pl-4 text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Nro. de documento</label>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ function DocumentInput() {
                           onChange={handleInputChange}
                           minLength={9}
                           maxLength={9}
-                          className="block py-2.5 px-0 text-sm text-gray-900 bg-transparent appearance-none focus:outline-none focus:ring-0 peer pl-4 min-w-96" placeholder=" "/>
+                          className="block py-2.5 px-0 text-sm text-gray-900 bg-transparent appearance-none focus:outline-none focus:ring-0 peer pl-4 w-[400px] md:w-[600px]" placeholder=" "/>
                    <label htmlFor="doc" className="absolute pl-4 text-sm text-gray-500 dark:text-black duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Celular</label>
                </div>
            </div>

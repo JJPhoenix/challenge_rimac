@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+# Proyecto React para el challenge Rimac 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Funcionalidad
+
+1. [x] **Registro de usuarios:**
+    - Ingreso el tipo de documento.
+    - Ingreso del documento.
+    - Ingreso del número de celular (9 digitos)
+    - SOLO VERIFICA QUE TENGAS LOS DATOS COMPLETOS.
+
+2. [x] **Guardar datos de usuario:**
+    - Se guarda los datos del usuario en un context.
+
+3. [x] **Mostrar servicios:**
+    - Se muestran los servicios según la edad de los usuarios.
+
+4. [x] **Calcular el precio:**
+    - Se calcula el precio en base del destino del producto.
+        - Si el destino es un tercero se da un descuento del 5%.
+
+### Tecnologías Utilizadas:
+
+#### Frontend:
+- HTML5 
+- CSS3 (con preprocesadores como Sass o Less)
+- JavaScript y frameworks como React
+- Tailwind
 
 ## Available Scripts
 
@@ -28,20 +54,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
