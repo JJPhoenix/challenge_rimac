@@ -110,7 +110,7 @@ function DocumentInput() {
                         name="term1"
                         value={term1}
                         onChange={handleInputChange}
-                        className="form-checkbox h-6 w-6 rounded-full text-black focus:outline-none focus:ring-2 focus:accent-black checked:accent-black"
+                        className="form-checkbox h-6 w-6 rounded-lg text-black focus:outline-none focus:ring-2 focus:accent-black checked:accent-black checked:rounded-lg"
                     />
                     <span className="ml-2">Acepto la Política de Privacidad</span>
                 </label>
@@ -124,11 +124,11 @@ function DocumentInput() {
                         onChange={handleInputChange}
                         className="form-checkbox h-6 w-6 rounded-lg text-black focus:outline-none focus:ring-2 focus:accent-black checked:accent-black checked:rounded-lg"
                     />
-                    <span className="ml-2">Acepto la Política Comunicaciones Comerciales</span>
+                    <span className="ml-2">Acepto la Política de Comunicaciones Comerciales</span>
                 </label>
             </div>
             <div className="inline-flex items-center mt-4">
-                <a href="!#" className="cursor-pointer underline font-BR-sonoma-semi-bold">Aplican Términos y Condiciones</a>
+                <a href="!#" target="_blank" className="cursor-pointer underline font-BR-sonoma-semi-bold">Aplican Términos y Condiciones</a>
             </div>
             <div className="inline-flex items-center mt-4 justify-center md:justify-normal">
                 <Link to={validar ? "/products" : "/"}>
