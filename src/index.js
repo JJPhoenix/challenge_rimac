@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {UsuarioProvider} from "./context/UsuarioContext";
+import {PlanesProvider} from "./context/PlanesContext";
+import {ProductoProvider} from "./context/ProductoContext";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <UsuarioProvider>
+          <PlanesProvider>
+              <ProductoProvider>
+                  <App/>
+              </ProductoProvider>
+          </PlanesProvider>
+      </UsuarioProvider>
   </React.StrictMode>
 );
 
