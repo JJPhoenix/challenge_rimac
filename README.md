@@ -8,6 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     - Ingreso el tipo de documento.
     - Ingreso del documento.
     - Ingreso del número de celular (9 digitos)
+    - Activar los dos checkbox
     - SOLO VERIFICA QUE TENGAS LOS DATOS COMPLETOS.
 
 2. [x] **Guardar datos de usuario:**
